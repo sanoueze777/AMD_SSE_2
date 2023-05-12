@@ -253,39 +253,7 @@ if authentication_status:
     item1 = st.sidebar.selectbox('element 1', item_list, index=0)
     item2 = st.sidebar.selectbox('element 2', item_list, index=3)
 
-    df_rng = df[(df['YYYY'] >= start_year) & (df['YYYY'] <= end_year)]
-    source = df_rng[df_rng['Origin'].isin(origins)]
-
-    # Content
-    base = alt.Chart(source).properties(height=300)
-
-    bar = base.mark_bar().encode(
-        x=alt.X('count(Origin):Q', title='Number of Records'),
-        y=alt.Y('Origin:N', title='Origin'),
-        color=alt.Color('Origin:N', legend=None)
-    )
-
-    point = base.mark_circle(size=50).encode(
-        x=alt.X(item1 + ':Q', title=item1),
-        y=alt.Y(item2 + ':Q', title=item2),
-        color=alt.Color('Origin:N', title='',
-                        legend=alt.Legend(orient='bottom-left'))
-    )
-
-    line1 = base.mark_line(size=5).encode(
-        x=alt.X('yearmonth(Year):T', title='Date'),
-        y=alt.Y('mean(' + item1 + '):Q', title='exemple'),
-        color=alt.Color('Origin:N', title='',
-                        legend=alt.Legend(orient='bottom-left'))
-    )
-
-    line2 = base.mark_line(size=5).encode(
-        x=alt.X('yearmonth(Year):T', title='Date'),
-        y=alt.Y('mean(' + item2 + '):Q', title='exemple'),
-        color=alt.Color('Origin:N', title='',
-                        legend=alt.Legend(orient='bottom-left'))
-    )
-
+    
     # Layout (Content)
     Main_df = pd.DataFrame({"Mission": [""], "CHAMP D'ACTIVITES": [""], "TEMPS DE TRAVAIL (Part de la journée)": [None], "LIEU": [""]})
 
