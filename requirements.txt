@@ -2,5 +2,5 @@ altair
 vega_datasets
 streamlit_option_menu
 streamlit_authenticator
-yaml
+pyyaml
 mysql-connector-python
