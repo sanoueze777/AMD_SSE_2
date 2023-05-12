@@ -245,11 +245,7 @@ if authentication_status:
     st.sidebar.title(f"{expert_name} ")
     st.sidebar.markdown('###')
     st.sidebar.markdown("### Parametres")
-    start_year, end_year = st.sidebar.slider(
-        "Période",
-        min_value=min_year, max_value=max_year,
-        value=(min_year, max_year))
-
+    
     st.sidebar.markdown('###')
     origins = st.sidebar.multiselect('Origins', origin_list,
                                      default=origin_list)
