@@ -20,7 +20,7 @@ credentials:
       name: KABORE Abzeta
       password: $2b$12$llx9AIER8bpov.VsdH6etOnd5ieDML/9V/LLL0sF2GaaHa5j86AZ2 # To be replaced with hashed password
     B_Moumini:
-       name: BAMOGO Moumini
+      name: BAMOGO Moumini
       password: $2b$12$IsLTlF/6Z3dvc8bOwa4aa.ZGyR948rjV5p9nR76F1Jj2/C.6279o. # To be replaced with hashed password
     K_Moussa:
       name: KABORE Moussa
