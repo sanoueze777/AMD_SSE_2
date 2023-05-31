@@ -246,13 +246,7 @@ if authentication_status:
     st.sidebar.markdown('###')
     st.sidebar.markdown("### Parametres")
     
-    st.sidebar.markdown('###')
-    origins = st.sidebar.multiselect('Origins', origin_list,
-                                     default=origin_list)
-    st.sidebar.markdown('###')
-    item1 = st.sidebar.selectbox('element 1', item_list, index=0)
-    item2 = st.sidebar.selectbox('element 2', item_list, index=3)
-
+    
     
     # Layout (Content)
     Main_df = pd.DataFrame({"Mission": [""], "CHAMP D'ACTIVITES": [""], "TEMPS DE TRAVAIL (Part de la journée)": [None], "LIEU": [""]})
