@@ -1,13 +1,43 @@
 credentials:
   usernames:
-    jsmith:
+    admin:
       email: sanou.ezekiel226@gmail.com
       name: Sanou Ezekiel
       password: $2b$12$Rtb1tnugIpfmtBD.DTy9uOvt3ILrDDIcFVzqT8WmC9GGtl753QUM6 # To be replaced with hashed password
-    rbriggs:
-      email: hsanououedraogo@gmail.com
-      name: Sanou Ouedraogo
-      password: $2b$12$ngb1NXnRYB0NhzvmuG.Sbux7OBND0NepS6VyJYykSiYioe7f5T6/u # To be replaced with hashed password
+    Z_Benjamin:
+      name: ZOUNGRANA Benjamin
+      password: $2b$12$Rtb1tnugIpfmtBD.DTy9uOvt3ILrDDIcFVzqT8WmC9GGtl753QUM6 # To be replaced with hashed password
+    M_Alase:
+      name: MUHAIMINU Alasé
+      password: $2b$12$y6Blxh0eOnJTZ5vQAiPDteUwmPwrGmLqoprRy48fJSlYfRAMGEMzu # To be replaced with hashed password
+    S_Aziz:
+      name: SAWADOGO Aziz
+      password: $2b$12$UEK9Uma/MXovYn8yEMOkruUk3NFZMHcLgWLRGdS33IWiGcYe3JE/. # To be replaced with hashed password:
+    L_Auguste:
+      name: LANKOANDE Auguste
+      password: $2b$12$ewIcZ3t5aVb/tULvSIqm7OwCyXY0O.01gNlBMVxoLcIsnAigK/3/C # To be replaced with hashed password
+    K_Abzeta:
+      name: KABORE Abzeta
+      password: $2b$12$llx9AIER8bpov.VsdH6etOnd5ieDML/9V/LLL0sF2GaaHa5j86AZ2 # To be replaced with hashed password
+    B_Moumini:
+       name: BAMOGO Moumini
+      password: $2b$12$IsLTlF/6Z3dvc8bOwa4aa.ZGyR948rjV5p9nR76F1Jj2/C.6279o. # To be replaced with hashed password
+    K_Moussa:
+      name: KABORE Moussa
+      password: $2b$12$uNtXpV0MVgmF.BBXHByt4OjQMUxdNcxtMT2tVsUbnUnHRTRd4OW6y # To be replaced with hashed password
+    H_Marius:
+      name: HOUNGNIZAN Marius
+      password: $2b$12$5EdlDmNWRqqBsu2tmZwSr.QuprqoHWUlDkDx5Wo4b9WIJfVayloiG # To be replaced with hashed password
+    S_Salfo:
+      name: SAWADOGO Salfo
+      password: $2b$12$RJiSUQx7kGkwHNAmIlcf9eOqj9el5bB7V7.C1dC.MJNgNrnkYeHq. # To be replaced with hashed password
+    K_Gjemilatou:
+      name: KABRE Djémilatou
+      password: $2b$12$UKcS5KlUygOWBs1/Lab0DuJGvL/fjOvqBKf/mp0fslUUw7g/TNsdq # To be replaced with hashed password
+
+   
+      
+
 cookie:
   expiry_days: 30
   key: AAFTSS # Must be string
