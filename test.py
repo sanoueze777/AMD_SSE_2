@@ -180,6 +180,13 @@ def select_from_experts(conn):
     cur.execute(sql)
     conn.commit()
     return cur
+def highlight_survived(s):
+    return ['background-color: lightgreen']*len(s) if 50<s else ['background-color: pink']*len(s)
+
+def color_survived(val):
+    color = 'green' if 50<val else 'pink'
+    return f'background-color: {color}'
+
 """"""""""""
 
 
