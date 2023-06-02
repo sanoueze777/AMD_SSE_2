@@ -187,11 +187,18 @@ def color_survived(val):
     color = 'green' if 50<val else 'pink'
     return f'background-color: {color}'
 
+full_message_temp ="""
+<div style="background-color:{};padding:10px;border-radius:10px">
+<h1 style="color:{};text-align:center;">SYSTEME DE SUIVI DES MISSIONS</h1>
+</div>
+"""
 """"""""""""
 
 
-st.image("Capture d’écran 2022-10-17 175305.png", use_column_width=False)
-st.title("SYSTEME DE SUIVI DES MISSIONS")
+#st.image("Capture d’écran 2022-10-17 175305.png", use_column_width=False)
+title = "SYSTEME DE SUIVI DES MISSIONS | planification"
+st.markdown(full_message_temp.format('royalblue','white'),unsafe_allow_html=True)
+
 
 hide_streamlit_style = """
                 <style>
