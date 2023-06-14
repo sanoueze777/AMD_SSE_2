@@ -34,6 +34,28 @@ credentials:
     K_Gjemilatou:
       name: KABRE Djémilatou
       password: $2b$12$UKcS5KlUygOWBs1/Lab0DuJGvL/fjOvqBKf/mp0fslUUw7g/TNsdq # To be replaced with hashed password
+    L_Yemboido:
+      name: LOMPO YEMBOIDO
+      password: $2b$12$rWD/QFTvNI7p6Lrb1Xg8cOlWQnyFUTWBTTcBf6CJF1p4WrhpeomAu # To be replaced with hashed password
+    N_Tiandjoa:
+      name: NABA TIANDJOA
+      password: $2b$12$05ku90XPYEcG5A1g64JUsOVm6NWQBkaN32R5xTIamiqtfRAAK.xae # To be replaced with hashed password
+    C_Aoua:
+      name: COULIBALY AOUA
+      password: $2b$12$miucix06ngyV8zYmxyAwBOmQv401.mtmRsmIibygq2eR.EWqmCgEW # To be replaced with hashed password
+    T_Dieudonne:
+      name: TOE DIEUDONNE
+      password: $2b$12$di.ujOUaIe2cQ4I7Q2Ovue2S4U5ypforP6KXDUuzCRsa27dogmO8O # To be replaced with hashed password
+    S_Augustin:
+      name: SENI N AUGUSTIN
+      password: $2b$12$R6PHycu6j0guJyV7cUeKC.tm9j6HO5DXqD56oeQAfjabpJ6VlXYqC # To be replaced with hashed password
+    K_Isaac:
+      name: KAM SIE ISAAC
+      password: $2b$12$d3Xg1RUb5tBTHTNQY7OniuS4G1Tc396Xg5oC8hyoXJuZrPCt3TbOS # To be replaced with hashed password
+    K_Armel:
+      name: KABORE ARMEL
+      password: $2b$12$UvbtYP4yl69GntYPgNLEZeJfRcIderFfh4HKZgJPaBGmkMJ/K4VqS # To be replaced with hashed password
+    
 
    
       
